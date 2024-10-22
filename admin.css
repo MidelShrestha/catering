@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.dashboard-container {
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+.sidebar-header h2 {
+    text-align: center;
+}
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar-menu li {
+    padding: 10px 0;
+}
+.sidebar-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+}
+.sidebar-menu a:hover {
+    background-color: #575757;
+}
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+}
+header h1 {
+    color: #333;
+}
+.overview {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+.stat-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 30%;
+}
+.chart-container {
+    margin-top: 20px; /* Space above the chart */
+}
+canvas {
+    max-width: 600px; /* Set a max width for the chart */
+    margin: 0 auto; /* Center the chart */
+}
